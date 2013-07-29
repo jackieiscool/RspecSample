@@ -1,4 +1,7 @@
 RspecSample::Application.routes.draw do
+  resources :people
+
+
   resources :movies
 
 
